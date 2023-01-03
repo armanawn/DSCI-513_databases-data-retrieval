@@ -1,0 +1,16 @@
+name: dsci513
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10
+  - ipykernel
+  - psycopg2
+  - ipython-sql
+  - pandas
+  - matplotlib
+  - dnspython
+  - pip
+  - pip:
+    - pymongo[srv]
+  
